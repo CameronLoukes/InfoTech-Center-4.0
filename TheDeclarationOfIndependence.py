@@ -26,7 +26,6 @@ def gasLevelGuage():
     currentGasLevel = random.choice(gasLevelList)
     return currentGasLevel
 
-print(gasLevelGuage())
 
 
 # Gas Station Function
@@ -35,4 +34,4 @@ def listOfGasStations():
    closestGasStation = random.choice(gasStations)
    return closestGasStation
 
-print(listOfGasStations())
+
