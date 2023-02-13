@@ -87,7 +87,7 @@ def gasLevelAlert():
     else:
         print("\nYour Gas Tank is Full")
 
-gasLevelAlert()
+
 
 
 # Weather function
@@ -124,5 +124,10 @@ def vehicleResponseSystem():
         print("\nNWS is callig for",weatherAlert,"drive safely and have a nice day")
 
 
-(vehicleResponseSystem())
 
+
+
+
+#Call Funtions Here
+vehicleResponseSystem()
+gasLevelAlert()
