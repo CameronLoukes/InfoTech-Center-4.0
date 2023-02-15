@@ -38,3 +38,16 @@ def vehicleResponseSystem():
 
 
 (vehicleResponseSystem())
+
+# I will create a system that will change the indside car tempurater depending on the conditions outside (This will only activate if Snowing, Blizzard, Icy. Or Sinshine)
+def temperatureGuage():
+    if weatherAlert == "Snowing":
+        print("\n Due to the forcast of",weatherAlert, " your air conditioning has been set to 80 degrees")
+    elif weatherAlert == "Blizzard":
+        print("\n Due to the forcast of",weatherAlert, " your air conditioning has been set to 80 degrees")
+    elif weatherAlert == "Icy":
+        print("\n Due to the forcast of",weatherAlert, " your air conditioning has been set to 80 degrees")
+        
+
+
+
