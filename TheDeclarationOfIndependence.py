@@ -8,7 +8,7 @@ I will create personalized driver settings for different drivers
 
 # Import Libraries Here:
 import random
-import time.sleep
+from time import sleep
 
 def drivers():
     listOfDrivers = ["Driver 1", "Driver 2", "Driver 3", "Driver 4"]
@@ -16,11 +16,11 @@ def drivers():
     return drivers
 
 def radio():
-    listOfRadioStations = ["Top Hits", "Pop", "HipHop", "Rock", "Country", "Jazz"]
+    listOfRadioStations = ["Top Hits,", "Pop,", "HipHop,", "Rock,", "Country,", "Jazz,"]
     chooseRadioStation = random.choice(listOfRadioStations)
 
 def steeringWheel():
-    listOfWheelPositions = ["Low", "Medium", "High"]
+    listOfWheelPositions = ["Low,", "Medium,", "High,"]
     chooseWheelPosition = random.choice(listOfWheelPositions)
 
 def seat():
@@ -30,8 +30,21 @@ def seat():
 # Create settings for drivers
 
 def driverSettings():
-    if "Driver 1":
+    if drivers == "Driver 1":
         print("Driver 1 has been chosen")
-    elif "Driver 2":
-    elif "Driver 3":
-    else "Driver 4":
+        sleep(2)
+        print("Radio is beeing set to ",radio, " steering wheel is being set to ",steeringWheel, " and seat position is being set to",seat,)
+    elif dirvers == "Driver 2":
+        print("Driver 2 has been chosen")
+        sleep(2)
+        print("Radio is being set to ",radio, " steering wheel is being set to ",steeringWheel, " and seat position is being set to",seat,)
+    elif drivers == "Driver 3":
+        print("Driver 3 has been chosen")
+        sleep(2)
+        print("Radio is being set to ",radio, " steering wheel is being set to ",steeringWheel, " and seat position is being set to",seat,)
+    else drivers == "Driver 4":
+        print("Driver 4 has been chosen")
+        sleep(2)
+        print("Radio is being set to ",radio, " steering wheel is being set to ",steeringWheel, " and seat position is being set to",seat,)
+
+        (driverSettings())
